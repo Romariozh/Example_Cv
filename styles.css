@@ -1,0 +1,92 @@
+
+#name {
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Tapestry', cursive;
+    text-decoration-style: solid;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(228, 252, 213);
+}
+.chapters {
+    text-decoration-style: solid;
+    font-family: 'Tapestry', cursive;
+    background-color: #1d3629;
+    border-collapse: collapse;
+    color: rgb(228, 252, 213);
+}
+.chapters_menu {
+    text-align: center;
+    text-decoration-style: solid;
+    font-family: 'Tapestry', cursive;
+    color: white;
+    font-size: 24px;
+}
+.contContacts {
+    vertical-align: top;
+    width: 200px;   
+    background-color: #292b3a; 
+    color: #EAEBEA;
+}
+.exampl {
+    margin-left: 7%;
+    height: fit-content;
+    font-family: 'Tapestry', cursive;
+    line-height: 120%;
+    margin-right: 7%;
+    font-size: 18px;
+    color: #b5cceb;
+}
+.exampl a {
+    margin-left: 3%;
+    font-size: 14px;
+    color: #88f388;
+    font-family: Verdana, sans-serif;
+}
+.main {
+    font-family: 'Noto Serif Display', serif;
+}
+#purp {
+    font-family: 'Tapestry', cursive;
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+    color: rgb(228, 252, 213);
+}
+.contBody table {
+    margin: auto;
+    width: 800px;
+ /*   border: 1px solid black; */
+    border-collapse: collapse;
+}
+.contHead table {
+    margin: auto;
+    width: 800px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+}
+#contBody_td {
+    vertical-align: auto;
+    margin-left: 3%;
+}
+#contBody_td p {
+    text-indent: 20px;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+.skills {
+    line-height: 10px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+.html {width: 40%; background-color: #265c8f;}
+.css {width: 30%; background-color: #265c8f;} 
+.js {width: 15%; background-color: #265c8f;} 
+.uk {width: 95%; background-color: #265c8f;}
+.ru {width: 95%; background-color: #265c8f;}
+.en {width: 45%; background-color: #265c8f;}
